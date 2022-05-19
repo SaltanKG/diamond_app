@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp (DiamondApp());
+  runApp(DiamondApp());
 }
 
 class DiamondApp extends StatelessWidget {
@@ -25,7 +25,7 @@ class DiamondApp extends StatelessWidget {
         body: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Center(
+            const Center(
               child: Text(
                 'I\'m Rich!',
                 style: TextStyle(fontFamily: 'Sofia', fontSize: 60),
